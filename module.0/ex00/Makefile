@@ -13,7 +13,7 @@ CXXFLAGS 	= -Wall -Wextra -Werror -std=c++98
 NAME		= megaphone
 
 # ── SOURCE & OBJECT FILES ──
-SRCS 	= ex00/megaphone.cpp
+SRCS 	= megaphone.cpp
 OBJS 	= ${SRCS:.cpp=.o}
 
 # ── BUILD TARGETS ──
